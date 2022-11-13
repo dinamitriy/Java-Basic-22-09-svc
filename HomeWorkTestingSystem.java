@@ -28,7 +28,7 @@ public class HomeWorkTestingSystem {
                 if (scanner.hasNextInt()) {
                     answerForQuestion0 = scanner.nextInt();
                    if (answerForQuestion0 <= 0 || answerForQuestion0 > answerOptions[i].length) {
-                       System.out.println("Введено не число вне диапазона");
+                       System.out.println("Введено число вне диапазона");
                        System.out.print("Ваш ответ: ");
                    } else {break;}
                 } else {
